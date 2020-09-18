@@ -18,11 +18,16 @@ Command : ls
 
 ### Commands to Change directory :
 
-cd dir : To move inside a subdirectory. Here dir is the subdirectory.
-cd ~ : To change directory to the home directory. 
-cd : This works same as cd ~.
-cd / : To change directory to the root directory.
+cd dir : To move inside a subdirectory. Here dir is the subdirectory
+
+cd ~ : To change directory to the home directory
+
+cd : This works same as cd ~ 
+
+cd / : To change directory to the root directory
+
 cd .. :  To move to the parent directory of current directory
+
 Suppose i want to move from dir1 to dir2
 Command : cd ../dir2/
 
