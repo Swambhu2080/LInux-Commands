@@ -16,17 +16,21 @@ command : mkdir ../dir2/dir3
 
 Command : ls
 
+* ls -a : list all files including hidden files.
+
+* ls -l : listing, show permission, edits dates, etc.
+
 ### Commands to Change directory :
 
-cd dir : To move inside a subdirectory. Here dir is the subdirectory
+* cd dir : To move inside a subdirectory. Here dir is the subdirectory
 
-cd ~ : To change directory to the home directory
+* cd ~ : To change directory to the home directory
 
-cd : This works same as cd ~ 
+* cd : This works same as cd ~ 
 
-cd / : To change directory to the root directory
+* cd / : To change directory to the root directory
 
-cd .. :  To move to the parent directory of current directory
+* cd .. :  To move to the parent directory of current directory
 
 Suppose i want to move from dir1 to dir2
 Command : cd ../dir2/
