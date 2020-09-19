@@ -33,6 +33,7 @@ Command : ls
 * cd .. :  To move to the parent directory of current directory
 
 Suppose i want to move from dir1 to dir2
+
 Command : cd ../dir2/
 
 ### To get the Current Working Directory :
@@ -42,3 +43,19 @@ command : pwd
 ### To recursively list all the directories you have created :
 
 command : ls –R
+
+### To copy,delete, move, rename of files 
+
+* cp file1 file2 : make a copy of file1 named file2
+
+* cat myfile : show contents of myfile
+
+* more myfile : show contents of myfile one screen at a time
+
+* head myfile : show the top 10 lines of myfile
+
+* rm myfile : remove myfile (delete it permanently)
+
+* rm * : remove all files in current directory
+
+* rm -i * : interactive removal - ask yes/no for each file
