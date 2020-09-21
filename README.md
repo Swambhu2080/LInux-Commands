@@ -114,8 +114,21 @@ animals.txt.
 
 ### Changing permision of a file
 
-* Chmod 600 A.txt : To have read and write permission for the owner, but keep the
-file private from others. 
+* There are 3 types of permission - read, write, execute.
+
+* for eg : -rwxrw-r-- means owner has all the three permission i.e read, write, execute , group has read and write only permission and others have read only permission.
+
+* Read permission :- 4
+
+* write permission :- 2
+
+* execute permission :- 1
+
+* So to give owner all the three permissions, we need to write 7 (4+2+1).
+
+* To give read and write we need to write 6 (4+2). 
+
+* Chmod 764 A.txt : To have all the three permissions i.e read, write and execute permission for the owner, to give raed and write permission to group and read only permission to others.
 
 
 ## 3) Date & Time
@@ -170,7 +183,7 @@ file private from others.
 * check=det.txt
   [ -e $check ] echo " Exists" || echo "does not exists" : Determine if a file exists or not without using test command.
 
-## 6)Compare two strings using and without using test command.
+## 6) Compare two strings using and without using test command.
 ---
 
 read a 
