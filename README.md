@@ -105,7 +105,7 @@ command : ls –R
 
 * grep –i –c “Dog” animals.txt: Find the total number of lines contains the word ‘Dog’ in animals.txt.
 
-* –i –v –c “Dog” animals.txt : find the total number of lines does not contain the word ‘Dog’ in
+* grep –i –v –c “Dog” animals.txt : find the total number of lines does not contain the word ‘Dog’ in
 animals.txt.
 
 * grep –i –c "Cat$"" animals.txt : Display the lines in animals.txt that end with the word 'cat'.
